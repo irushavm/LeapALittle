@@ -72,9 +72,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Custom Scripts\Grapher1.cs" />
+    <Compile Include="Assets\Custom Scripts\Graphing\GrabStrength.cs" />
+    <Compile Include="Assets\Custom Scripts\Graphing\RollPitch.cs" />
     <Compile Include="Assets\Custom Scripts\GuideFollow.cs" />
     <Compile Include="Assets\Custom Scripts\HandAttributes.cs" />
-    <Compile Include="Assets\Custom Scripts\HandControllerExtended.cs" />
     <Compile Include="Assets\Custom Scripts\Record.cs" />
     <Compile Include="Assets\Custom Scripts\RecordKeyTest.cs" />
     <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\BlocksPlaneGenerator.cs" />
@@ -176,6 +177,8 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+    <Compile Include="Assets\Plotter\PlotManager.cs" />
+    <Compile Include="Assets\Plotter\Test\TestPlotter.cs" />
     <Compile Include="Assets\Scripts\LoadOnClick.cs" />
     <Compile Include="Assets\test.cs" />
   </ItemGroup>

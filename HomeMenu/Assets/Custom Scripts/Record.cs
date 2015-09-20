@@ -30,7 +30,7 @@ public class Record : MonoBehaviour {
 
         if (HandAttributes.Current_Hand != null)
         {
-            grab = HandAttributes.Current_Hand.getgrabStrength();
+            grab = HandAttributes.Current_Hand.getGrabStrength();
             pinch = HandAttributes.Current_Hand.getPinchStrength();
 
             if (isgrabping == false && grab > grab_true)
